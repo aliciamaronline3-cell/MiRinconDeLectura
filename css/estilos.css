@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:pink;
+    background-color:rgb(255, 252, 252);
     color: #263c59;
     margin: 0;
 }
@@ -19,10 +19,14 @@ p {
 }
 
 #cabecera {
-    background-color: #8e44ad;
+    background-color: #263c59;
     color: #faf8f3;
     text-align: center;
     padding: 25px;
+}
+#logolibro{
+ padding-right: 10px;
+ width: 200px;
 }
 
 #cabecera h1 {
@@ -33,10 +37,20 @@ p {
 #cabecera p {
     font-style: italic;
 }
-
+.identidad{
+    display:flex;
+    align-items: center;
+    text-align: start;
+    padding: left 12%;
+    margin:0;
+}
 nav {
     margin-top: 20px;
-}
+    text-align:end;
+    padding-right: 6%;
+    padding-bottom: 1%;
+    background-color: red;
+}   
 
 nav a {
     color: white;
@@ -76,7 +90,7 @@ nav a.activo {
 }
 
 #generos {
-    background-color: #e8f2fb;
+    background-color: #d3d6da;
     padding: 20px;
     text-align: center;
 }
@@ -96,7 +110,7 @@ nav a.activo {
 .genero h3 {
     color: #263c59
 }
-#recomendadacion{
+#recomendacion{
     background-color: #fce8ec;
     padding: 20px;
     margin-top: 20px;
