@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:rgb(255, 252, 252);
+    background-color: rgb(255, 252, 252);
     color: #263c59;
     margin: 0;
 }
@@ -24,9 +24,10 @@ p {
     text-align: center;
     padding: 25px;
 }
-#logolibro{
- padding-right: 10px;
- width: 200px;
+
+#logolibro {
+    padding-right: 10px;
+    width: 200px;
 }
 
 #cabecera h1 {
@@ -37,20 +38,22 @@ p {
 #cabecera p {
     font-style: italic;
 }
-.identidad{
-    display:flex;
+
+.identidad {
+    display: flex;
     align-items: center;
     text-align: start;
     padding: left 12%;
-    margin:0;
+    margin: 0;
 }
+
 nav {
     margin-top: 20px;
-    text-align:end;
+    text-align: end;
     padding-right: 6%;
     padding-bottom: 1%;
-    background-color: red;
-}   
+  
+}
 
 nav a {
     color: white;
@@ -93,6 +96,12 @@ nav a.activo {
     background-color: #d3d6da;
     padding: 20px;
     text-align: center;
+
+}
+
+.iconogeneros {
+    width: 100px;
+
 }
 
 .genero {
@@ -105,68 +114,86 @@ nav a.activo {
     padding: 15px;
     border: 1px solid #c5d8eb;
     border-radius: 8px;
+    height: 250px;
+  
+
 }
 
 .genero h3 {
     color: #263c59
 }
-#recomendacion{
+
+#recomendacion {
     background-color: #fce8ec;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
 }
 
-.portada{
+.portada {
     width: 130px;
     border-radius: 5px;
 }
-.cita{
+
+.cita {
     background: color #fff5e5;
     padding: 12px;
-    font-style:italic;
+    font-style: italic;
     text-align: center;
     border-radius: 6px;
 }
-#catalogo{
-    text-align:center;
+
+#catalogo {
+    text-align: center;
 }
+
 .tarjeta {
-    display:inline-block;
+    display: inline-block;
     vertical-align: top;
-    width:220px;
+    width: 220px;
     min-height: 420px;
     background-color: #e8f2fb;
     border: 1px solid #c5d8eb;
     border-radius: 10px;
     padding: 15px;
-    margin:8px;
+    margin: 8px;
     text-align: center;
 }
-.tarjeta h3{
+
+.tarjeta h3 {
     font-size: 20px;
 }
-.tarjeta p{
+
+.tarjeta p {
     font-size: 15px;
 }
-#otros-libros{
+
+#otros-libros {
     background-color: #fff5e5;
-    padding:20px;
+    padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
 }
-#otros-libros li{
+
+#otros-libros li {
     margin: 8px;
 }
-footer{
-    background-color: #263c59;
-    color:white;
-    text-align: center;
-    padding:15px;
-    
-    
-}
-footer a{
-    color:white;
 
+footer {
+    background-color: #263c59;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+footer a {
+    color: white;
+
+}
+.redes{
+    width: 30px;
+    height: 30px;
+    display:inline-block;
 }
