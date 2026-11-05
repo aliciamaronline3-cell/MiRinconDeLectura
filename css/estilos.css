@@ -12,6 +12,11 @@ main {
 h2 {
     color: #263c59;
     font-size: 26px;
+    transition: color 1s;
+    
+}
+h2:hover{
+    color: chocolate;
 }
 
 p {
@@ -96,12 +101,19 @@ nav a.activo {
     margin: 10px;
     text-decoration: none;
     border-radius: 6px;
+    width: 120px;
+    transition: background-color 5s, color 5s, width 5s;
+   
 }
 
 .boton:active {
     background-color: aqua
 }
-
+.boton:hover{
+    background-color: red;
+    color:rgb(4, 160, 17);
+    width: 180px;
+}
 #generos {
     background-color: #d3d6da;
     padding: 20px;
@@ -146,8 +158,13 @@ nav a.activo {
 .portada {
     width: 130px;
     border-radius: 5px;
-}
 
+transition: 5s;
+
+}
+.portada:hover {
+    opacity: 1%;
+}
 .cita {
     background: color #fff5e5;
     padding: 12px;
@@ -171,6 +188,11 @@ nav a.activo {
     margin: 10px;
     text-align: center;
     height: 150px;
+    transition:background-color 1s,border-radius 3s;
+    border-radius: 6px;
+  transition:background-color 5s, border-color 5s,height 10s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition:box-shadow 0.5s;
 }
 
 .tarjeta h3 {
@@ -182,9 +204,12 @@ nav a.activo {
 }
 
 .tarjeta:hover {
-    border-radius: 15px;
+    border-radius: 0px;
 
-    border: 2px solid orange;
+    border: 2px solid orange;background-color: yellow;
+    border-color: blueviolet;
+    height: 300px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
 }
 
 #otros-libros li:first-child {
